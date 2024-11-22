@@ -1,0 +1,108 @@
+.Banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.Texts {
+  background: linear-gradient(180deg, black, #121210);
+  text-align: center;
+  position: relative;
+}
+.Texts p {
+  font-size: 1.5rem;
+  color:#946011;
+  position: absolute;
+  top: -75px;
+  
+
+}
+.Texts p + p {
+  font-size: 2.5rem;
+  top: -60px;
+}
+.Texts span {
+  color: white;
+}
+.Texts button{
+  width: 300px;
+  border: 1px solid #946011;
+  padding: 10px;
+  border-radius: 2px;
+}
+/* Breakpoint para dispositivos pequenos (smartphones) */
+@media (max-width: 576px) {
+  .Texts {
+    background: linear-gradient(180deg, black, #121210);
+    text-align: center;
+    position: relative;
+  }
+  .Texts p {
+    font-size: 1.2rem;
+    color:#946011;
+    position: absolute;
+    top: -75px;
+    margin-left: 1rem;
+  
+  }
+  .Texts p + p {
+    font-size: 2rem;
+    top: -60px;
+  }
+
+}
+
+/* Breakpoint para dispositivos médios (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    background-color: #faebd7; /* Apenas exemplo */
+  }
+}
+
+/* Breakpoint para dispositivos grandes (laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .Texts p + p {
+  
+    margin-left: 2rem;
+ 
+
+  }
+
+}
+
+/* Breakpoint para dispositivos extra grandes (desktops) */
+@media (min-width: 993px) {
+  .Banner {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Texts {
+    background: linear-gradient(96deg, black, #121210);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: static;
+  
+  }
+  .Texts p {
+    font-size: 2rem;
+ 
+    position: static;
+  }
+  .Texts p + p {
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    width: 600px;
+
+  }
+
+  .Image {
+    position: relative;
+    width: 60%;
+  }
+  .Image img {
+    width: 100%;
+  }
+}
