@@ -95,10 +95,12 @@ backdrop-filter: blur(10px);
     font-size: 1.2rem;
      display: flex; 
      justify-content: flex-end;
+ 
   }
   .Menu ul{
-   display: flex;
-    
+   
+   display: flex; 
+   justify-content: flex-end;
   }
   .Menu button{
     display: none;
