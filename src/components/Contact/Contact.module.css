@@ -1,0 +1,55 @@
+.Contact{
+  width: 100%;
+  padding: 4rem 1REM;
+  background: #121212;;
+}
+.Contact h2{
+  font-size: 2rem;
+  text-align: center;
+  
+}
+.Contact form{
+ display: flex;
+ width: 80%;
+ margin: auto;
+ background: #2a2727;
+ flex-direction: column;
+ padding: 2rem;
+}
+.Contact form P{
+font-size: 1.2REM;
+text-align: center;
+}
+.Contact button{
+  background: #000;
+  width: 100%;
+
+  padding: 10px;
+  margin:10px auto;
+}
+
+/* Breakpoint para dispositivos pequenos (smartphones) */
+@media (max-width: 576px) {
+
+  .Contact form P{
+  font-size: 1.1REM;
+  text-align: center;
+  padding-bottom: 1REM;
+  }
+}
+
+/* Breakpoint para dispositivos médios (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+/* Breakpoint para dispositivos grandes (laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+ 
+
+}
+
+/* Breakpoint para dispositivos extra grandes (desktops) */
+@media (min-width: 993px) {
+
+}

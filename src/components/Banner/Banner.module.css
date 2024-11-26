@@ -16,6 +16,9 @@
   
 
 }
+.Image img {
+  z-index: 0;
+}
 .Texts p + p {
   font-size: 2.5rem;
   top: -60px;
@@ -29,12 +32,24 @@
   padding: 10px;
   border-radius: 2px;
 }
+.Image{
+  height: 80vh;
+}
+.Image img{
+height: 100%;
+padding-top: 4rem;
+}
 /* Breakpoint para dispositivos pequenos (smartphones) */
 @media (max-width: 576px) {
   .Texts {
-    background: linear-gradient(180deg, black, #121210);
+    background: linear-gradient(180deg,  #121210, #121210);
+    height: 150px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    background-color: transparent;
   }
   .Texts p {
     font-size: 1.2rem;
@@ -74,6 +89,14 @@
   .Banner {
     justify-content: space-between;
     flex-direction: row;
+    height: 100vh;
+   
+  }
+  .Image{
+    height: 100vh;
+  }
+  .Image img{
+  height: 100%;
   }
   .Texts {
     background: linear-gradient(96deg, black, #121210);

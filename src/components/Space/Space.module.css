@@ -2,6 +2,7 @@
  text-align: center;
  width: 100%;
  background: rgb(25, 25, 25);
+ padding: 2rem 0;
 background-image: url('/src/assets/barco.svg');
 }
 .Space h2{
@@ -30,8 +31,19 @@ background-image: url('/src/assets/barco.svg');
 }
 .Galery img:hover{
   width: 400px;
-  transition: 1s;
+  transition:ease-in-out 1s;
 
+}
+.Mapa{
+  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content:center ;
+ flex-direction: column;
+ gap: 1rem;
+}
+.Mapa iframe{
+  width: 60%;
 }
 /* Breakpoint para dispositivos pequenos (smartphones) */
 @media (max-width: 576px) {
@@ -53,6 +65,9 @@ background-image: url('/src/assets/barco.svg');
     width: 400px;
     transition: 1s;
   
+  }
+  .Mapa iframe{
+    width: 80%;
   }
 }
 /* Breakpoint para dispositivos médios (tablets) */
