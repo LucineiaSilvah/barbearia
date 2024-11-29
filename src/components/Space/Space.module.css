@@ -23,14 +23,15 @@ background-image: url('/src/assets/barco.svg');
   display: flex;
   justify-content: space-around;
   position: relative;
-
 }
 
 .Galery img{
   width: 300px;
+  border-radius: 5px;
 }
 .Galery img:hover{
-  width: 400px;
+  width: 340px;
+  box-shadow: 0 3px 10px;
   transition:ease-in-out 1s;
 
 }

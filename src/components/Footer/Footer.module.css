@@ -1,0 +1,76 @@
+.Footer{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Logo{
+  width: 150px;
+
+}
+.Logo img{
+  width: 100%;
+}
+/* Breakpoint para dispositivos pequenos (smartphones) */
+@media (max-width: 576px) {
+  
+}
+
+/* Breakpoint para dispositivos médios (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+/* Breakpoint para dispositivos grandes (laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+
+
+}
+
+/* Breakpoint para dispositivos extra grandes (desktops) */
+@media (min-width: 993px) {
+  .Banner {
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100vh;
+   
+  }
+  .Image{
+    height: 100vh;
+  }
+  .Image img{
+  height: 100%;
+  }
+  .Texts {
+    background: linear-gradient(96deg, black, #121210);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: static;
+  
+  }
+  .Texts p {
+    font-size: 2rem;
+ 
+    position: static;
+  }
+  .Texts p + p {
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    width: 600px;
+
+  }
+
+  .Image {
+    position: relative;
+    width: 60%;
+  }
+  .Image img {
+    width: 100%;
+  }
+}

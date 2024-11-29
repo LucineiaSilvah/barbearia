@@ -23,7 +23,7 @@ const Header = () => {
        <nav className={style.Menu} >
      
        <button type='button' onClick={toggleMenu}>
-        {menuOpen ? '☰': 'X'}
+        {menuOpen ? 'X':  '☰'}
        </button>
 
         <ul className={  menuOpen ? `${style.Lista.Open}`:`${style.Lista}`}>
