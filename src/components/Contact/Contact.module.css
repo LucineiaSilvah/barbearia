@@ -51,5 +51,9 @@ text-align: center;
 
 /* Breakpoint para dispositivos extra grandes (desktops) */
 @media (min-width: 993px) {
-
+  .Contact form{
+   
+    width: 600px;
+  
+   }
 }

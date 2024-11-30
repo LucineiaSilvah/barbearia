@@ -1,17 +1,21 @@
 import style from './Banner.module.css'
-import { Fade } from 'react-reveal';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     
     <div className={style.Banner}>
     <div className={style.Texts}>
-      <Fade left>
-     <p><span>Transforme Seu</span> Estilo</p>
-      </Fade>
-      <Fade right>
+     
+     <p data-aos="fade-left"><span>Transforme Seu</span> Estilo</p>
+    
 
-     <p><span>Eleve Sua</span> Confiança!</p>
-      </Fade>
+     <p data-aos="fade-left"><span>Eleve Sua</span> Confiança!</p>
+ 
      <div className={style.Texts}>
 
 
