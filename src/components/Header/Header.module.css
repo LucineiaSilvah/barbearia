@@ -68,6 +68,7 @@ list-style: none;
 @media (max-width: 576px) {
   .Header{
     height: 500px;
+    width:180px;
   }
  .Menu{
 
