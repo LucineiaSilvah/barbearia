@@ -37,6 +37,7 @@
   color: white;
 }
 .Image{
+  width: auto;
   height: 80vh;
 }
 .Image img{
@@ -45,6 +46,10 @@ padding-top: 4rem;
 }
 /* Breakpoint para dispositivos pequenos (smartphones) */
 @media (max-width: 576px) {
+
+   .Image img{
+    width: 100%;
+   }
   .Texts {
     background: linear-gradient(180deg,  #121210, #121210);
     height: 150px;
@@ -72,9 +77,10 @@ padding-top: 4rem;
 
 /* Breakpoint para dispositivos médios (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {
-  body {
-    background-color: #faebd7; /* Apenas exemplo */
-  }
+
+ .Image img{
+  width: 100%;
+ }
 }
 
 /* Breakpoint para dispositivos grandes (laptops) */

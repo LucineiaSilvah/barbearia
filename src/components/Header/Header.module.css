@@ -29,7 +29,7 @@ list-style: none;
 }
 .Menu a{
   text-decoration: none;
-  z-index: 1;
+
   text-transform: capitalize;
   color: aliceblue;
 }
@@ -52,6 +52,7 @@ list-style: none;
   width: 100px;
   font-size: 1.1rem;
   top: 0px;
+ 
   right: 0;
   padding: 10px;
   margin: 30px 0;
@@ -67,8 +68,7 @@ list-style: none;
 /* Breakpoint para dispositivos pequenos (smartphones) */
 @media (max-width: 576px) {
   .Header{
-    height: 500px;
-    width:100vw;
+    width: 100vw;
   }
  .Menu{
 
