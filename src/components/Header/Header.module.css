@@ -30,6 +30,7 @@ list-style: none;
 .Menu a{
   text-decoration: none;
   z-index: 1;
+  text-transform: capitalize;
   color: aliceblue;
 }
 .Menu ul li{
