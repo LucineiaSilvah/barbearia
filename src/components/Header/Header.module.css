@@ -6,7 +6,7 @@
   align-items: center;
   position: fixed;
   z-index: 1;
-
+  overflow: hidden;
   background: #000;
 }
 
@@ -22,13 +22,21 @@
 }
 .Menu ul {
 backdrop-filter: blur(10px);
-
+list-style: none;
+}
+.Menu a{
+  text-decoration: none;
+}
+.Menu a{
+  text-decoration: none;
+  z-index: 1;
+  color: aliceblue;
 }
 .Menu ul li{
  padding: 10px;
 
 }
-.Menu ul li:hover{
+.Menu  a:hover{
   color:#946011;
 
 }
@@ -58,7 +66,7 @@ backdrop-filter: blur(10px);
 /* Breakpoint para dispositivos pequenos (smartphones) */
 @media (max-width: 576px) {
   .Header{
-    height: auto;
+    height: 500px;
   }
  .Menu{
 

@@ -1,8 +1,15 @@
 *{
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 body{
   background: #000;
   color: #fff;
+}
+.App{
+  overflow: hidden;
+}
+a{
+  color:#946011;
 }
