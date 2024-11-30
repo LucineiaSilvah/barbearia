@@ -2,6 +2,7 @@ import style from './Banner.module.css'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 const Banner = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
