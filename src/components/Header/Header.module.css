@@ -18,12 +18,12 @@
   padding: 10px;
   margin: 30px;
   color: white;
-  
+  z-index: 1;
 }
 .Menu ul {
 backdrop-filter: blur(10px);
 list-style: none;
-   z-index: 1; 
+    
 }
 .Menu a{
   text-decoration: none;
