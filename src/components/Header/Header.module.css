@@ -76,7 +76,7 @@ list-style: none;
   font-size: 1.1rem;
  }
 .Menu ul{
-  heigth:250px;
+  height:250px;
 }
  .Logo img{
   width: 100px;
@@ -85,7 +85,7 @@ list-style: none;
 /* Breakpoint para dispositivos médios (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {
   .Menu{
-    
+    height:250px;
     font-size: 1.1rem;
    }
    .Logo img{
@@ -98,6 +98,7 @@ list-style: none;
   .Menu{
     font-size: 1.5rem;
     width: 200px;
+    
    }
   
 }
