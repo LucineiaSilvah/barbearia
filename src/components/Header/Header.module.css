@@ -18,11 +18,12 @@
   padding: 10px;
   margin: 30px;
   color: white;
- 
+  
 }
 .Menu ul {
 backdrop-filter: blur(10px);
 list-style: none;
+   z-index: 1; 
 }
 .Menu a{
   text-decoration: none;
@@ -35,11 +36,11 @@ list-style: none;
 }
 .Menu ul li{
  padding: 10px;
-
+  z-index: 1;
 }
 .Menu  a:hover{
   color:#946011;
-
+  z-index: 1;
 }
 
 .Lista.Open{
