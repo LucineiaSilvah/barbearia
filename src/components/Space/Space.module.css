@@ -1,6 +1,10 @@
 .Space{
  text-align: center;
  width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
  background: rgb(25, 25, 25);
  padding: 4rem 0;
 background-image: url('/src/assets/barco.svg');
@@ -21,22 +25,20 @@ background-image: url('/src/assets/barco.svg');
   width: 100%;
   height: 600px;
   display: flex;
+
   justify-content: space-around;
-  position: relative;
+  
 }
 
 .Galery img{
-  width: 300px;
+  width: 400px;
+  margin: auto;
+
   border-radius: 5px;
 }
-.Galery img:hover{
-  width: 340px;
-  box-shadow: 0 3px 10px;
-  transition:ease-in-out 1s;
 
-}
 .Mapa{
-  width: 100%;
+  width: 600px;
  display: flex;
  align-items: center;
  justify-content:center ;
@@ -44,8 +46,9 @@ background-image: url('/src/assets/barco.svg');
  gap: 1rem;
 }
 .Mapa iframe{
-  width: 60%;
+  width: 100%;
 }
+
 /* Breakpoint para dispositivos pequenos (smartphones) */
 @media (max-width: 576px) {
   .Galery{
@@ -59,21 +62,40 @@ background-image: url('/src/assets/barco.svg');
   
   }
   .Galery img{
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
-  .Galery img:hover{
-    width: 400px;
-    transition: 1s;
-  
+  .Mapa{
+    width: 90%;
+    margin: auto;
   }
   .Mapa iframe{
-    width: 80%;
+    width: 100%;
+    margin: auto;
   }
 }
 /* Breakpoint para dispositivos médios (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {
- 
+  .Galery{
+    width: 100%;
+    height:auto;
+    display: flex;
+  padding: 1rem;
+   gap: 1rem; 
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  .Galery img{
+    width: 90%;
+
+  }
+  .Texts{
+    font-size: 2rem;
+  }
+  .Space h2{
+    font-size: 3rem;
+  }
 }
 
 /* Breakpoint para dispositivos grandes (laptops) */
